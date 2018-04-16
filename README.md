@@ -1,2 +1,4 @@
-# nnspaceinvaders
-NN Space Invaders
+# NN Space Invaders
+
+See at:
+https://saraivagilberto.github.io/nnspaceinvaders/
