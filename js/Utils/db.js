@@ -13,7 +13,8 @@ class DB {
         this.database = null;
         this.lastError = null;
 
-        var db = this;
+        cb(null);
+        /*
         firebase.auth().signInAnonymously().catch(function(error) {
             db.lastError = error;
             console.log(error);
@@ -25,6 +26,7 @@ class DB {
                 cb(db);
             }
         });
+        */
     }
 
     saveNNSI (NNSI, cb) {
